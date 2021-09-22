@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selector Updated</title>
+    
+    <style>
+        /*body styling*/
+        body{
+            background-color: #333;
+        }
+        /*. bruges til class*/
+        .primary-heading{
+            color:blueviolet;
+        }
+        /*#bruges til ID*/
+        #velkommen{
+            background-color: #f4f4f4;
+        }
+        #velkommen, #om{
+            border: 1px solid whitesmoke;
+            Padding: 10px;
+            margin-bottom: 10px;
+        }
+        /*nested selector*/
+        #velkommen p{
+            font-size: 20px;
+        }
+
+        #om p{
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <div id="velkommen">
+        <h2 class="primary-heading">Velkommen</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quia eligendi quibusdam saepe ipsum veniam
+            illo esse iure optio repudiandae.</p>
+    </div>
+    <div id="om">
+        <h2>Om</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sequi aut nihil natus! Tempore deleniti ut
+            exercitationem, id recusandae mollitia.</p>
+    </div>
+</body>
+</html>
